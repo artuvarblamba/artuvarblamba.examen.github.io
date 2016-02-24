@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+body{
+	font-family: 'Slabo 27px', serif;
+	background-color: #f7f7f7;
+	font-size: 24px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Slabo 27px', serif;
+	color: black;
+}
+.banner{
+	position:relative;
+	margin-top: -300px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	background-color:rgba(120,120,120,0.8);
+}
+#button{
+	background-color: blue;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	padding: 2%;
+	position: relative;
+	left: 50%;
+
+}
+.bold{
+	text-align: left;
+}
+#fondo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    position:relative;
+    top:0;
+    bottom:0;
+    margin:0;
+    width: 100%;
+    min-height: 100%;
+    
+}
+#prop{
+	background-color: #20b2aa;
+	color: #f7f7f7;
+	text-align: center;
+	margin: 0px;
+	padding: 10%;
+	font-size: 40px;
+}
+.bordeado{
+	padding: 6%;
+	font-size: 24px;
+
+}
+hr{
+	border-top: dashed #c0c0c0;
+	width: 100%;
+	margin: 5%;
+	margin-left: 0%;
+}
+
+#img1{
+	height: 80px;
+	width: 80px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#img2{
+	height: 80px;
+	width: 80px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#img3{
+	height: 80px;
+	width: 80px;
+	margin-right: 5%;
+	margin-left: 5%;
+} 
+
+#img4{
+	height: 80px;
+	width: 80px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+
+[class*="col-"] {
+	float: left;
+	box-sizing: border-box;
+}
+.col-1{width:10%;}
+.col-2{width:20%;}
+.col-3{width:30%;}
+.col-4{width:40%;}
+.col-5{width:50%;}
+.col-6{width:60%;}
+.col-7{width:70%;}
+.col-8{width:80%;}
+.col-9{width:90%;}
+.col-10{width:100%;}
+
+.row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.col-offset-1{margin-left:10%;}
+.col-offset-2{margin-left:20%;}
+.col-offset-3{margin-left:30%;}
+.col-offset-4{margin-left:40%;}
+.col-offset-5{margin-left:50%;}
+.col-offset-6{margin-left:60%;}
+.col-offset-7{margin-left:70%;}
+.col-offset-8{margin-left:80%;}
+.col-offset-9{margin-left:90%;}
+.col-offset-10{margin-left:100%;}
+
+
+
+
